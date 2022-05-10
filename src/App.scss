@@ -1,0 +1,172 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.first-container {
+  width: 1200px;
+  margin: 0 auto;
+  .header-component {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    margin-top: 45px;
+  }
+
+  .space-bar {
+    margin-top: 10px;
+
+    input {
+      font-size: 18px;
+      padding-left: 40px;
+      margin-left: 60px;
+      margin-right: 60px;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      width: 635px;
+      height: 35px;
+      background-color: #f9f9f9;
+    }
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    .signupButt {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px #2cb1ba solid;
+      width: 115px;
+      height: 30px;
+      margin-right: 20px;
+      button {
+        border: none;
+        background-color: white;
+        color: #2cb1ba;
+      }
+    }
+    .loginButt {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px #2cb1ba solid;
+      width: 115px;
+      height: 30px;
+      background-color: white;
+      button {
+        border: none;
+        background-color: white;
+        color: #2cb1ba;
+      }
+    }
+    .publishButt {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 115px;
+      height: 30px;
+      button {
+        border: none;
+        background-color: #2cb1ba;
+        color: white;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .home-button {
+  }
+}
+
+.home-block {
+  .home-image {
+    img {
+      width: 100vw;
+      height: 600px;
+      object-fit: cover;
+    }
+  }
+  .offer-product-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .image-container {
+      width: 200px;
+    }
+    img {
+      width: 200px;
+      height: 330px;
+    }
+    span {
+      size: 12px;
+      color: #999;
+    }
+  }
+}
+
+.signupContainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.signupPage {
+  border: 2px green solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 500px;
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+  }
+
+  .inputUserMailWord {
+    input {
+      outline: none;
+      font-size: 18px;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: none;
+      width: 100%;
+      height: 40px;
+      border-bottom: red 1px solid;
+      margin-bottom: 17px;
+      box-sizing: border-box;
+    }
+  }
+
+  .newsletterBox {
+    display: flex;
+    align-items: center;
+    color: #666;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .newsletterSpan {
+    font-size: 12px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .submitBox {
+    width: 275px;
+    height: 45px;
+  }
+}
